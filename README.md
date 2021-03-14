@@ -14,7 +14,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ## Overview
 
-![screenshot]();
+![screenshot](https://github.com/CamiloRodriguezG/blogr-landing-page/blob/master/design/overview.jpg);
 
 ### The challenge
 
