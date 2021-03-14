@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blogr-landing-page-gFotgTkQP)
+- Live Site URL: [Live site](https://naughty-ride-1bb35e.netlify.app/) Please adjust the zoom to 80%, I made all the page with the zoom at 80% and I just noticed it :(
 
 ### Built with
 
