@@ -31,6 +31,15 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+      @media (max-width:1000px) {
+        .attribution{
+          position: relative !important;
+          padding: 1.25em 0 !important;
+          margin: 0 !important;
+          left: 0 !important;
+          flex-direction: column !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -78,8 +87,8 @@
           </div>
         </div>
         <div class="nav-right">
-          <button class="login-btn">Login</button>
-          <button class="signup-btn">Sign up</button>
+          <a href="#" class="login-btn">Login</a>
+          <a href="#" class="signup-btn">Sign up</a>
         </div>
         <img src="./images/icon-hamburger.svg" class="hamburguer" onclick="openMenu()">
         </img>
@@ -88,14 +97,14 @@
         <h1>A modern publishing platform</h1>
         <p>Grow your audience and build your online brand</p>
         <div class="hero-buttons">
-          <button>Start for free</button>
-          <button>Learn more</button>
+          <a href="#">Start for free</a>
+          <a href="#">Learn more</a>
         </div>
       </div>
     </header>
     <div class="menu-mobile">
       <div>
-        <div class="drop-item">
+        <div class="drop-item-mobile">
           <p class="title-drop">
             Product
             <span class="arrow-mobile">
@@ -110,7 +119,7 @@
             <p>Integrations</p>
           </div>
         </div>
-        <div class="drop-item">
+        <div class="drop-item-mobile">
           <p class="title-drop">
             Company
             <span class="arrow-mobile">
@@ -124,7 +133,7 @@
             <p>Careers</p>
           </div>
         </div>
-        <div class="drop-item">
+        <div class="drop-item-mobile">
           <p class="title-drop">
             Connect
             <span class="arrow-mobile">
@@ -226,28 +235,28 @@
       </div>
       <div>
         <h4>Product</h4>
-        <a>Overview</a>
-        <a>Pricing</a>
-        <a>Marketplace</a>
-        <a>Features</a>
-        <a>Integrations</a>
+        <a href="#">Overview</a>
+        <a href="#">Pricing</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Features</a>
+        <a href="#">Integrations</a>
       </div>
       <div>
         <h4>Company</h4>
-        <a>About</a>
-        <a>Team</a>
-        <a>Blog</a>
-        <a>Careers</a>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
       </div>
       <div>
         <h4>Contact</h4>
-        <a>Contact</a>
-        <a>Newsletter</a>
-        <a>LinkedIn</a>
+        <a href="#">Contact</a>
+        <a href="#">Newsletter</a>
+        <a href="#">LinkedIn</a>
       </div>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
-        Coded by <a href="portfolio-mu-snowy.vercel.app">Camilo Rodriguez.</a>
+        Coded by <a href="https://portfolio-mu-snowy.vercel.app/">Camilo Rodriguez.</a>
       </div>
     </footer>
     <script src="scripts.js"></script>
